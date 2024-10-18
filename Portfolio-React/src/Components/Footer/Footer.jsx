@@ -23,7 +23,7 @@ export const Footer = () => {
             </div>
         </div>
         </div>
-        <hr/>
+        {/* <hr/> */}
         <div className='footer-bottom'>
             <p className='footer-bottom-left'>@2024 Jeyarajah Rukshan. All rights reserved. </p>
             <div className='footer-bottom-right'>

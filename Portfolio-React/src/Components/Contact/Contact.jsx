@@ -61,7 +61,7 @@ export const Contact = () => {
 
             <form onSubmit={onSubmit} className='contact-right'>
                 <label htmlFor="" >Your Name :</label>
-                <input type="text" placeholder='Jeyarajah Rukshan' name="name"/>
+                <input type="text" placeholder='Enter your name here' name="name"/>
 
                 <label htmlFor="" >Your Email :</label>
                 <input type="email" placeholder='Mail@gmail.com' name="gmail"/>
