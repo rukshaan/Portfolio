@@ -14,7 +14,8 @@ const Hero = () => {
        <div className='hero-action' >
         <div className='hero-connect'><Link smooth={true} offset={-50} duration={500} to="contact"> Connect Me</Link></div>
         {/* <Link smooth={true} offset={-50} duration={500} to="contact"> Connect Me</Link> */}
-        <div className='hero-resume'> <a href={pdf_file} target="_blank" rel="noopener noreferrer"> MyResume</a></div>
+        <a href={pdf_file} target="_blank" rel="noopener noreferrer">
+        <div className='hero-resume'>  MyResume</div></a>
        </div>
     </div>
   )

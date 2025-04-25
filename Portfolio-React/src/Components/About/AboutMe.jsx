@@ -18,14 +18,16 @@ const AboutMe = () => {
         <div className='about-right'>
           <div className='about-para'>
             <p>
-              I am an experienced frontend developer with over a decade of professional
-              experience in the field. Throughout my career, I have had the privilege of
-              collaborating with prestigious organizations, contributing to their success
-              and growth.
+            I am a skilled Fullstack Developer with over a decade of experience in designing and building scalable web applications. 
+            Throughout my career, I have worked with leading organizations, delivering high-quality solutions that enhance user experience
+             and drive business success. My expertise spans both frontend and backend technologies, allowing me to develop seamless and 
+             efficient applications.
             </p>
+
             <p>
-              My passion for frontend development is not only about coding, but also the
-              enthusiasm and dedication I bring to each project.
+            My passion for Fullstack Development goes beyond writing code—I thrive on solving complex challenges, optimizing performance, 
+            and creating intuitive user interfaces. I am committed to continuous learning and staying up to date with the latest industry 
+            trends to deliver innovative and impactful solutions.
             </p>
           </div>
   
