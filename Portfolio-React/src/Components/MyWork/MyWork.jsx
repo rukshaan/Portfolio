@@ -16,14 +16,17 @@ export const MyWork = () => {
                 mywork_data.map((work,index)=>{
         
                         return( 
-                          <img  key ={index} src={work.w_img} alt='work'/>                      
+                           <a href={work.w_link} target="_blank" rel="noopener noreferrer">
+                                <img  key ={index} src={work.w_img} alt='work'/>
+                           </a>                      
                         )}) }
         </div>
-
-        <div className='mywork-showmore'>
-           <p>Show More</p>
-           <img src={arrow_icon} alt='arrow'/>
-        </div>
+        <a href='https://github.com/rukshaan' target="_blank" rel='noopener noreferrer'>
+          <button onClick="" className='mywork-showmore'>
+            <p>Show More</p>
+            <img src={arrow_icon} alt='arrow'/>
+          </button>
+        </a>
     </div>
   )
 }
