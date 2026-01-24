@@ -9,8 +9,8 @@ const Hero = () => {
   return (
     <div className='hero' id='home'>
         <img src={profileImg} alt='profile' className='profile'/>
-        <h1>I am<span> Jeyarajah Rukshan ,</span>  Fullstack Developer Based In Sri Lanka</h1>
-       <p>I am a Fullstack Developer from,Jaffna Sri Lanka .I am searching for an Intenship program</p>
+        <h1>I am<span> Jeyarajah Rukshan ,</span>  Data Engineer Based In Sri Lanka</h1>
+       <p>I am a Data Engineer from,Jaffna Sri Lanka .I am searching for a Job</p>
        <div className='hero-action' >
         <div className='hero-connect'><Link smooth={true} offset={-50} duration={500} to="contact"> Connect Me</Link></div>
         {/* <Link smooth={true} offset={-50} duration={500} to="contact"> Connect Me</Link> */}

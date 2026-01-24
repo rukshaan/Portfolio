@@ -1,94 +1,158 @@
-.navbar{
+/* ===== Base Styles (Desktop First) ===== */
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 20px 100px;
-    gap:20px;
-    /* position: fixed; */
+    gap: 20px;
 }
-.logo1{
-    display: flex;
+
+.logo1 {
     height: 5rem;
     width: 5rem;
 }
-.nav-menu{
+
+.nav-menu {
     display: flex;
     align-items: center;
     list-style: none;
     gap: 60px;
     font-size: 20px;
-    margin: 10px 60px;
 }
-.nav-menu li{
+
+.nav-menu li {
     display: flex;
     flex-direction: column;
-    gap:5px;
-    cursor:pointer;
-
+    gap: 5px;
+    cursor: pointer;
 }
-.nav-menu li img{
-    display: flex;
+
+.nav-menu li img {
     margin: auto;
 }
-.nav-connect{
-    font-size: 18px;
-    padding: 20px 40px;
-    border-radius: 50px;
-    background:linear-gradient(267deg, #DA7C25 0.36% ,#B923E1 102.06%) ;
-    cursor: pointer;
-    transition: 0.5s;
+
+.anchor-link {
+    text-decoration: none;
+    color: white;
 }
-.nav-connect:hover{
+
+.nav-connect {
+    font-size: 18px;
+    padding: 18px 35px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.nav-connect:hover {
     transform: scale(1.05);
 }
 
-.anchor-link{
-    text-decoration: none;
-    color:white;
-}
-.nav-mob-close{
+.nav-mob-open,
+.nav-mob-close {
     display: none;
 }
-.nav-mob-open{
-    display: none;
-}
-@media(max-width:768px){
-    .navbar{
-        margin: 20px 50px;
+
+/* ===== Large Screens (1440px+) ===== */
+@media (min-width: 1440px) {
+    .navbar {
+        margin: 20px 150px;
     }
-    .nav-connect{
+
+    .nav-menu {
+        gap: 80px;
+        font-size: 22px;
+    }
+}
+
+/* ===== Laptop & Tablet (1024px – 1200px) ===== */
+@media (max-width: 1200px) {
+    .navbar {
+        margin: 20px 60px;
+    }
+
+    .nav-menu {
+        gap: 40px;
+        font-size: 18px;
+    }
+}
+
+/* ===== Tablet (768px – 1023px) ===== */
+@media (max-width: 1023px) {
+    .navbar {
+        margin: 20px 40px;
+    }
+
+    .nav-connect {
+        padding: 15px 30px;
+        font-size: 16px;
+    }
+}
+
+/* ===== Mobile (≤ 768px) ===== */
+@media (max-width: 768px) {
+    .navbar {
+        margin: 15px 25px;
+    }
+
+    .nav-connect {
         display: none;
     }
-    .nav-mob-open{
-        display: flex;
+
+    .nav-mob-open {
+        display: block;
         position: fixed;
-        right: 30px;
+        right: 25px;
+        top: 25px;
+        width: 28px;
+        z-index: 3;
+        cursor: pointer;
     }
-    .nav-mob-close{
-        display: flex;
-        position: relative;
-        right: 120px;
-        top:210px;
-        height:20px
-    }
-    .nav-menu{
+
+    .nav-menu {
         position: fixed;
+        top: 0;
+        right: -100%;
+        width: 280px;
+        height: 100vh;
+        background-color: #1F0016;
         flex-direction: column;
         align-items: center;
-        text-align: center;
-        top:0px;
-        gap:30px;
-        background-color: #1F0016;
-        width: 300px;
-        height: 100%;
+        justify-content: center;
+        gap: 35px;
         z-index: 2;
-        transition: right 0.5s;
-        right: -360px;
+        transition: right 0.4s ease;
     }
-    .nav-menu li{
-        font-size: 30px;
-        padding-left: 0px;
+
+    .nav-menu li {
+        font-size: 26px;
         flex-direction: row;
-        gap:20px;
+        gap: 15px;
+    }
+
+    .nav-mob-close {
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        width: 22px;
+        cursor: pointer;
+    }
+}
+
+/* ===== Small Mobile (≤ 480px) ===== */
+@media (max-width: 480px) {
+    .navbar {
+        margin: 10px 15px;
+    }
+
+    .logo1 {
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .nav-menu li {
+        font-size: 22px;
     }
 }

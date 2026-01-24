@@ -1,111 +1,201 @@
-.Service{
+/* ===== Base Styles (Desktop First) ===== */
+.Service {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    gap:80px;
-    margin:80px 170px;
-}
-.about-title{
-    position:relative;
+    align-items: center;
+    gap: 80px;
+    margin: 80px 170px;
 }
 
-.about-title h1{
+/* ===== Title (Shared Style) ===== */
+.about-title {
+    position: relative;
+}
+
+.about-title h1 {
     font-size: 80px;
-    font-weight:600;
-    display:flex;
-    padding:0 30px;
+    font-weight: 600;
+    padding: 0 30px;
 }
 
-.about-title img{ 
-   position: absolute;
-   bottom: 0;
-   right: 0;
-   z-index: -1;
+.about-title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
 }
 
-.services-format{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap:2px;
-    padding: 30px;
-    border-radius: 20px;
-    border: 2px solid white;
-    margin:5px 5px;
-    transition: 0.4s;
-    cursor :pointer;
-}
-.services-container{
-    display:grid;
-    grid-template-columns: 2fr 2fr 2fr;
+/* ===== Services Grid ===== */
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    width: 100%;
     margin-bottom: 80px;
 }
-.services-format h3{
+
+/* ===== Service Card ===== */
+.services-format {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 35px 30px;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background: transparent;
+}
+
+.services-format h3 {
     font-size: 26px;
     font-weight: 600;
 }
-.services-format h2{
-    font-size: 40px;
+
+.services-format h2 {
+    font-size: 38px;
     font-weight: 800;
-    background : linear-gradient(267deg, #DA7C25 0.36% ,#B923E1 102.06%) ;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.services-format p{
-    color:#D4D4D4;
+
+.services-format p {
     font-size: 20px;
-    line-height: 30px;
-    max-width: 500px;
+    line-height: 1.6;
+    color: #D4D4D4;
 }
-.services-readmore{
-    display:flex;
-    gap:20px;
-    align-items:center;
+
+/* ===== Read More ===== */
+.services-readmore {
+    display: flex;
+    align-items: center;
+    gap: 15px;
     margin-top: 20px;
 }
-.services-format:hover{
-    border:2px solid purple;
+
+/* ===== Hover Effect (Desktop Only) ===== */
+.services-format:hover {
+    border-color: purple;
     transform: scale(1.05);
-    background-image: linear-gradient(45deg,#3f0028,#582300);
+    background-image: linear-gradient(45deg, #3f0028, #582300);
 }
 
-@media(max-width:768px){
-    .service{
-        align-items: start;
-        gap:70px;
-        margin: 20px 70px;
+/* ===================================================== */
+/* ================= Large Screens ===================== */
+/* ===================================================== */
+@media (min-width: 1440px) {
+    .Service {
+        margin: 100px 220px;
     }
-    .about-title h1{
-         padding: 0;
-         font-size: 50px;
-    }
-    .about-title img{
-        width:130px;
-        margin-right:-20px;
-    }
-    .services-format{
-        gap:20px;
-        padding: 32px;
-    }
-    .services-format h2{
-        font-size: 28px;
 
+    .services-format h2 {
+        font-size: 42px;
     }
-    .services-format p{
+}
+
+/* ===================================================== */
+/* ================= Laptops =========================== */
+/* ===================================================== */
+@media (max-width: 1200px) {
+    .Service {
+        margin: 70px 100px;
+    }
+
+    .services-container {
+        gap: 25px;
+    }
+
+    .services-format h2 {
+        font-size: 32px;
+    }
+}
+
+/* ===================================================== */
+/* ================= Tablets =========================== */
+/* ===================================================== */
+@media (max-width: 1024px) {
+    .Service {
+        margin: 60px 60px;
+        gap: 60px;
+    }
+
+    .about-title h1 {
+        font-size: 60px;
+    }
+
+    .services-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .services-format p {
         font-size: 18px;
-        line-height: 28px;
-        max-width: 300px;
-        
     }
-    .services-readmore img{
-        width:20px;
-        
+}
+
+/* ===================================================== */
+/* ================= Mobile ============================ */
+/* ===================================================== */
+@media (max-width: 768px) {
+    .Service {
+        margin: 40px 25px;
+        gap: 50px;
+        align-items: flex-start;
     }
-    .services-container{
-        grid-template-columns: 1fr 1fr;
+
+    .about-title h1 {
+        font-size: 48px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .about-title img {
+        width: 120px;
+        right: -10px;
+    }
+
+    .services-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .services-format {
+        padding: 30px 25px;
+    }
+
+    .services-format h2 {
+        font-size: 28px;
+    }
+
+    .services-format p {
+        font-size: 16px;
+    }
+
+    .services-readmore img {
+        width: 20px;
+    }
+
+    /* Disable hover zoom on mobile */
+    .services-format:hover {
+        transform: none;
+        background-image: none;
+    }
+}
+
+/* ===================================================== */
+/* ================= Small Mobile ====================== */
+/* ===================================================== */
+@media (max-width: 480px) {
+    .about-title h1 {
+        font-size: 38px;
+    }
+
+    .services-format h2 {
+        font-size: 24px;
+    }
+
+    .services-format p {
+        font-size: 15px;
     }
 }

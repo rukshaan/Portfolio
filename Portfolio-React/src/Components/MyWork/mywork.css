@@ -1,97 +1,194 @@
-.mywork{
+/* ================= Base Styles (Desktop First) ================= */
+.mywork {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    margin: 80px 170px;
+    text-align: center;
+}
+
+/* ===== Title ===== */
+.mywork-title {
+    position: relative;
+}
+
+.mywork-title h1 {
+    font-size: 80px;
+    font-weight: 600;
+    padding: 0 20px;
+}
+
+.mywork-title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+/* ===== Work Grid ===== */
+.mywork-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+}
+
+.mywork-container img {
+    width: 100%;
+    height: 16rem;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease, border 0.3s ease;
+}
+
+.mywork-container img:hover {
+    transform: scale(1.1);
+    border: 2px solid white;
+}
+
+/* ===== Show More Button ===== */
+.mywork-showmore {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    gap:80px;
-    margin:80px 170px;
-}
-.mywork-title{
-    position:relative;
-}
-
-.mywork-title h1{
-    font-size: 80px;
-    font-weight:600;
-    display:flex;
-    padding:0 20px;
-}
-
-.mywork-title img{ 
-   position: absolute;
-   bottom: 0;
-   right: 0;
-   z-index: -1;
-}
-.mywork-container{
-    display:grid;
-    grid-template-columns: 2fr 2fr 2fr;
     gap: 20px;
-    margin-bottom: 5px;  
-}
-.mywork-container img{
-   height:16rem;
-   width:25rem;
-   box-sizing: border-box;
-   cursor: pointer;
-}
-.mywork-container img:hover{
-    transform :scale(1.22);
-    transition: 0.2s;
-    border:2px solid white
- }
-.mywork-showmore{
-    padding:30px 60px;
-    display:flex;
-    gap:20px;
+    padding: 30px 60px;
     border-radius: 50px;
-    border:3px solid white;
-    margin-bottom: 80px;
-    background: linear-gradient(267deg, #DA7C25 0.36% ,#B923E1 102.06%) ;
-}
-.mywork-showmore p{
+    border: 3px solid white;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    cursor: pointer;
+    color: white;
     font-size: 23px;
     font-weight: 500;
-}
-.mywork-showmore :hover{
-    gap:30px;
-    transform: scale(1.09);
-    transition: 0.3s;
-    background: linear-gradient(267deg, #DA7C25 0.36% ,#B923E1 102.06%) ;
-    
+    transition: transform 0.3s ease, gap 0.3s ease;
+    margin-top: 30px;
 }
 
-@media(max-width:768px){
-    .mywork{
-        gap:30px;
-        margin: 50px 70px;
-        align-items:start;
+.mywork-showmore:hover {
+    transform: scale(1.05);
+    gap: 25px;
+}
 
+/* ================= Large Screens ================= */
+@media (min-width: 1440px) {
+    .mywork {
+        margin: 100px 220px;
     }
-    .mywork-title h1{
-        padding: 10px;
-        padding-left:100px;
-        font-size:50px;
-        font-weight:600;
-        
-    }
-    .mywork-title img{
-        width:130px;
-        margin-right: -20px;
-    }
-    .mywork-container{
-        grid-template-columns: 1fr 1fr;
-        gap:30px;
 
+    .mywork-title h1 {
+        font-size: 90px;
     }
-    .mywork-container img{
-        width:100%;
-        height: 100%;
+
+    .mywork-container img {
+        height: 18rem;
     }
-    .mywork-showmore{
-        padding: 25px 30px;
-        font-size: 180x;
-        margin: 5px auto;
-        cursor: pointer;
+}
+
+/* ================= Laptops ================= */
+@media (max-width: 1200px) {
+    .mywork {
+        margin: 60px 100px;
+    }
+
+    .mywork-title h1 {
+        font-size: 70px;
+    }
+
+    .mywork-container img {
+        height: 15rem;
+    }
+}
+
+/* ================= Tablets ================= */
+@media (max-width: 1024px) {
+    .mywork {
+        margin: 50px 60px;
+        gap: 60px;
+    }
+
+    .mywork-title h1 {
+        font-size: 60px;
+    }
+
+    .mywork-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .mywork-container img {
+        height: 14rem;
+    }
+
+    .mywork-showmore {
+        padding: 25px 50px;
+        font-size: 20px;
+    }
+}
+
+/* ================= Mobile ================= */
+@media (max-width: 768px) {
+    .mywork {
+        margin: 40px 25px;
+        gap: 50px;
+        align-items: center;
+    }
+
+    .mywork-title h1 {
+        font-size: 48px;
+        padding-left: 0;
+    }
+
+    .mywork-title img {
+        width: 120px;
+        right: -10px;
+    }
+
+    .mywork-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .mywork-container img {
+        height: auto;
+        max-height: 250px;
+        width: 100%;
+    }
+
+    .mywork-showmore {
+        width: 90%;
+        padding: 20px;
+        font-size: 18px;
+        margin: 20px auto;
+    }
+
+    /* Disable hover effects on touch devices */
+    .mywork-container img:hover,
+    .mywork-showmore:hover {
+        transform: none;
+        border: none;
+        gap: 20px;
+    }
+}
+
+/* ================= Small Mobile ================= */
+@media (max-width: 480px) {
+    .mywork-title h1 {
+        font-size: 38px;
+    }
+
+    .mywork-container img {
+        max-height: 180px;
+    }
+
+    .mywork-showmore {
+        padding: 15px 20px;
+        font-size: 16px;
+        width: 95%;
+    }
+
+    .mywork-showmore p {
+        font-size: 16px;
     }
 }
