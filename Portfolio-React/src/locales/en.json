@@ -16,8 +16,8 @@
     },
     "about": {
         "title": "About Me",
-        "para1": "I am a skilled Fullstack Developer with over a decade of experience in designing and building scalable web applications. Throughout my career, I have worked with leading organizations, delivering high-quality solutions that enhance user experience and drive business success. My expertise spans both frontend and backend technologies, allowing me to develop seamless and efficient applications.",
-        "para2": "My passion for Fullstack Development goes beyond writing code—I thrive on solving complex challenges, optimizing performance, and creating intuitive user interfaces. I am committed to continuous learning and staying up to date with the latest industry trends to deliver innovative and impactful solutions.",
+        "para1": "I am a skilled Data Engineer with a strong background in designing and building scalable data pipelines. My expertise lies in transforming raw data into actionable insights, ensuring data reliability, and optimizing data architecture for performance and efficiency.",
+        "para2": "My passion for Data Engineering drives me to solve complex data challenges, from constructing efficient ETL processes to managing large-scale data warehouses. I am committed to leveraging the latest technologies to deliver robust data solutions that empower business decision-making.",
         "experience": "Years of Experience",
         "projects": "Projects Completed",
         "clients": "Happy Clients"
