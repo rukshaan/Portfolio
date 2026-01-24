@@ -1,0 +1,104 @@
+{
+    "navbar": {
+        "home": "Home",
+        "about": "About Me",
+        "services": "Services",
+        "portfolio": "Portfolio",
+        "contact": "Contact",
+        "connect": "Connect With Me"
+    },
+    "hero": {
+        "title_span": "Jeyarajah Rukshan ,",
+        "title_rest": "Data Engineer Based In Sri Lanka",
+        "description": "I am a Data Engineer from,Jaffna Sri Lanka .I am searching for a Job",
+        "connect": "Connect Me",
+        "resume": "MyResume"
+    },
+    "about": {
+        "title": "About Me",
+        "para1": "I am a skilled Fullstack Developer with over a decade of experience in designing and building scalable web applications. Throughout my career, I have worked with leading organizations, delivering high-quality solutions that enhance user experience and drive business success. My expertise spans both frontend and backend technologies, allowing me to develop seamless and efficient applications.",
+        "para2": "My passion for Fullstack Development goes beyond writing code—I thrive on solving complex challenges, optimizing performance, and creating intuitive user interfaces. I am committed to continuous learning and staying up to date with the latest industry trends to deliver innovative and impactful solutions.",
+        "experience": "Years of Experience",
+        "projects": "Projects Completed",
+        "clients": "Happy Clients"
+    },
+    "services": {
+        "title": "Services",
+        "readmore": "Read More",
+        "items": [
+            {
+                "name": "Web design",
+                "desc": "Web design is the process of creating the visual layout and user experience of a website, focusing on aesthetics and usability to enhance user engagement."
+            },
+            {
+                "name": "Graphics design",
+                "desc": "Graphic design involves the art of combining text and images to communicate ideas visually. It encompasses branding, advertisements, and various media for effective visual storytelling."
+            },
+            {
+                "name": "Social media",
+                "desc": "Social media management includes creating, curating, and analyzing content shared on social platforms to build a community, engage audiences, and enhance brand visibility."
+            },
+            {
+                "name": "App design",
+                "desc": "App design focuses on creating user-friendly interfaces and experiences for mobile applications, ensuring seamless navigation and interaction to enhance user satisfaction."
+            },
+            {
+                "name": "Digital marketing",
+                "desc": "Digital marketing encompasses all marketing efforts that use the internet or electronic devices, including SEO, content marketing, and social media, to connect with target audiences."
+            },
+            {
+                "name": "Content writing",
+                "desc": "Content writing is the creation of written material for online platforms, aimed at engaging readers and driving traffic through informative, persuasive, and entertaining content."
+            }
+        ]
+    },
+    "mywork": {
+        "title": "MyWork",
+        "showmore": "Show More",
+        "items": [
+            {
+                "name": "Web design"
+            },
+            {
+                "name": "Web design"
+            },
+            {
+                "name": "Web design"
+            },
+            {
+                "name": "Web design"
+            },
+            {
+                "name": "Web design"
+            },
+            {
+                "name": "Web design"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Get In Touch",
+        "lets_talk": "Lets Talk",
+        "desc": "I am currently available to take on new project, So feel free a message about anything that you want me to work on .You can Contact anytime.",
+        "labels": {
+            "name": "Your Name :",
+            "email": "Your Email :",
+            "message": "Your Message :"
+        },
+        "placeholders": {
+            "name": "Enter your name here",
+            "email": "Mail@gmail.com",
+            "message": "Enter Your Messages here"
+        },
+        "submit": "Submit Now"
+    },
+    "footer": {
+        "desc": "I am a fullstack developer from ,SriLanka with 1+ years of experiance in fullstack development.",
+        "email_placeholder": "Enter Your Email",
+        "subscribe": "Subscribe",
+        "copyright": "@2024 Jeyarajah Rukshan. All rights reserved.",
+        "terms": "Term Of Services",
+        "privacy": "Privacy Policy",
+        "connect": "Connect with Me"
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "navbar": {
+        "home": "Accueil",
+        "about": "À Propos",
+        "services": "Services",
+        "portfolio": "Portfolio",
+        "contact": "Contact",
+        "connect": "Connectez-vous"
+    },
+    "hero": {
+        "title_span": "Jeyarajah Rukshan ,",
+        "title_rest": "Ingénieur de Données basé au Sri Lanka",
+        "description": "I am a Data Engineer from,Jaffna Sri Lanka .I am searching for a Job",
+        "connect": "Connectez-moi",
+        "resume": "Mon CV"
+    },
+    "about": {
+        "title": "À Propos",
+        "para1": "I am a skilled Fullstack Developer... (FR)",
+        "para2": "My passion for Fullstack Development... (FR)",
+        "experience": "Années d'Expérience",
+        "projects": "Projets Terminés",
+        "clients": "Clients Heureux"
+    },
+    "services": {
+        "title": "Services",
+        "readmore": "Lire Plus",
+        "items": [
+            {
+                "name": "Web design",
+                "desc": "Web design description... (FR)"
+            },
+            {
+                "name": "Graphics design",
+                "desc": "Graphics design description... (FR)"
+            },
+            {
+                "name": "Social media",
+                "desc": "Social media description... (FR)"
+            },
+            {
+                "name": "App design",
+                "desc": "App design description... (FR)"
+            },
+            {
+                "name": "Digital marketing",
+                "desc": "Digital marketing description... (FR)"
+            },
+            {
+                "name": "Content writing",
+                "desc": "Content writing description... (FR)"
+            }
+        ]
+    },
+    "mywork": {
+        "title": "Mon Travail",
+        "showmore": "Montrer Plus",
+        "items": [
+            {
+                "name": "Web design"
+            },
+            {
+                "name": "Web design"
+            },
+            {
+                "name": "Web design"
+            },
+            {
+                "name": "Web design"
+            },
+            {
+                "name": "Web design"
+            },
+            {
+                "name": "Web design"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contactez-nous",
+        "lets_talk": "Parlons",
+        "desc": "I am currently available... (FR)",
+        "labels": {
+            "name": "Votre Nom :",
+            "email": "Votre Email :",
+            "message": "Votre Message :"
+        },
+        "placeholders": {
+            "name": "Entrez votre nom ici",
+            "email": "Mail@gmail.com",
+            "message": "Entrez vos messages ici"
+        },
+        "submit": "Soumettre Maintenant"
+    },
+    "footer": {
+        "desc": "I am a fullstack developer from... (FR)",
+        "email_placeholder": "Entrez Votre Email",
+        "subscribe": "S'abonner",
+        "copyright": "@2024 Jeyarajah Rukshan. Tous droits réservés.",
+        "terms": "Conditions d'utilisation",
+        "privacy": "Politique de confidentialité",
+        "connect": "Connectez-vous avec moi"
+    }
+}

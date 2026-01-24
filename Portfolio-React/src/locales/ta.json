@@ -1,0 +1,104 @@
+{
+    "navbar": {
+        "home": "முகப்பு",
+        "about": "என்னைப் பற்றி",
+        "services": "சேவைகள்",
+        "portfolio": "போர்ட்ஃபோலியோ",
+        "contact": "தொடர்பு",
+        "connect": "இணையுங்கள்"
+    },
+    "hero": {
+        "title_span": "ஜெயராஜா ருக்ஷான்,",
+        "title_rest": "இலங்கையைச் சேர்ந்த தரவுப் பொறியாளர்",
+        "description": "நான் இலங்கையின் யாழ்ப்பாணத்தைச் சேர்ந்த தரவுப் பொறியாளர். நான் ஒரு வேலையைத் தேடுகிறேன்",
+        "connect": "என்னை இணைக்கவும்",
+        "resume": "எனது பயோடேட்டா"
+    },
+    "about": {
+        "title": "என்னைப் பற்றி",
+        "para1": "I am a skilled Fullstack Developer... (TA)",
+        "para2": "My passion for Fullstack Development... (TA)",
+        "experience": "ஆண்டுகள் அனுபவம்",
+        "projects": "முடிவுற்ற திட்டங்கள்",
+        "clients": "மகிழ்ச்சியான வாடிக்கையாளர்கள்"
+    },
+    "services": {
+        "title": "சேவைகள்",
+        "readmore": "மேலும் படிக்க",
+        "items": [
+            {
+                "name": "Web design",
+                "desc": "Web design description... (TA)"
+            },
+            {
+                "name": "Graphics design",
+                "desc": "Graphics design description... (TA)"
+            },
+            {
+                "name": "Social media",
+                "desc": "Social media description... (TA)"
+            },
+            {
+                "name": "App design",
+                "desc": "App design description... (TA)"
+            },
+            {
+                "name": "Digital marketing",
+                "desc": "Digital marketing description... (TA)"
+            },
+            {
+                "name": "Content writing",
+                "desc": "Content writing description... (TA)"
+            }
+        ]
+    },
+    "mywork": {
+        "title": "எனது வேலை",
+        "showmore": "மேலும் காட்டு",
+        "items": [
+            {
+                "name": "Web design"
+            },
+            {
+                "name": "Web design"
+            },
+            {
+                "name": "Web design"
+            },
+            {
+                "name": "Web design"
+            },
+            {
+                "name": "Web design"
+            },
+            {
+                "name": "Web design"
+            }
+        ]
+    },
+    "contact": {
+        "title": "தொடர்பு கொள்ள",
+        "lets_talk": "பேசுவோம்",
+        "desc": "I am currently available... (TA)",
+        "labels": {
+            "name": "உங்கள் பெயர் :",
+            "email": "உங்கள் மின்னஞ்சல் :",
+            "message": "உங்கள் செய்தி :"
+        },
+        "placeholders": {
+            "name": "உங்கள் பெயரை இங்கே உள்ளிடவும்",
+            "email": "Mail@gmail.com",
+            "message": "உங்கள் செய்தியை இங்கே உள்ளிடவும்"
+        },
+        "submit": "சமர்ப்பிக்கவும்"
+    },
+    "footer": {
+        "desc": "I am a fullstack developer from... (TA)",
+        "email_placeholder": "உங்கள் மின்னஞ்சலை உள்ளிடவும்",
+        "subscribe": "சந்தா",
+        "copyright": "@2024 ஜெயராஜா ருக்ஷான். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.",
+        "terms": "சேவை விதிமுறைகள்",
+        "privacy": "தனியுரிமைக் கொள்கை",
+        "connect": "என்னுடன் இணையுங்கள்"
+    }
+}

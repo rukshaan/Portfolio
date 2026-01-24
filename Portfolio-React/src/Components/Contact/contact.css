@@ -53,9 +53,10 @@
 
 .contact-left p {
     max-width: 500px;
-    color: #D8D8D8;
+    color: var(--text-color);
     font-size: 22px;
     line-height: 1.6;
+    opacity: 0.8;
 }
 
 /* ===== Contact Details ===== */
@@ -63,7 +64,7 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
-    color: #D8D8D8;
+    color: var(--text-color);
     font-size: 22px;
 }
 
@@ -86,7 +87,7 @@
 }
 
 .contact-right label {
-    color: #D8D8D8;
+    color: var(--text-color);
     font-size: 22px;
     font-weight: 500;
 }
@@ -94,11 +95,11 @@
 .contact-right input,
 .contact-right textarea {
     width: 100%;
-    border: none;
+    border: 1px solid var(--card-border);
     padding: 18px 20px;
     border-radius: 6px;
-    background: #32323c;
-    color: white;
+    background: var(--input-bg);
+    color: var(--input-text);
     font-size: 20px;
 }
 
@@ -201,7 +202,8 @@
     .contact-right {
         flex: unset;
         width: 100%;
-        max-width: 500px; /* Ensures both sides have equal width */
+        max-width: 500px;
+        /* Ensures both sides have equal width */
         align-items: center;
         text-align: center;
     }

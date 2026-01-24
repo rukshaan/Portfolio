@@ -7,8 +7,8 @@
     align-items: center;
     gap: 30px;
     box-sizing: border-box;
-    background-color: #1F0016; /* Optional: dark background */
-    color: #fff;
+    background-color: var(--footer-bg);
+    color: var(--text-color);
 }
 
 .logoX {
@@ -31,7 +31,8 @@
     font-size: 18px;
     max-width: 600px;
     line-height: 1.6;
-    color: #D8D8D8;
+    color: var(--text-color);
+    opacity: 0.8;
 }
 
 .footer-top-right {
@@ -47,16 +48,17 @@
     gap: 15px;
     padding: 18px 25px;
     border-radius: 50px;
-    background: #32323c;
+    background: var(--input-bg);
     align-items: center;
     transition: 0.3s ease;
+    border: 1px solid var(--card-border);
 }
 
 .footer-email-input input {
     outline: none;
     border: none;
     background: transparent;
-    color: white;
+    color: var(--input-text);
     font-size: 16px;
     width: 250px;
     max-width: 100%;

@@ -1,0 +1,33 @@
+.language-selector {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.language-selector select {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  outline: none;
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.language-selector select:hover {
+  border-color: #ff00ff;
+  color: #ff00ff;
+}
+
+.language-selector select option {
+  background: #161513; 
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .language-selector {
+    margin: 20px 0;
+  }
+}

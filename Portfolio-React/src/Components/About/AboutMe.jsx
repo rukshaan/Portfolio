@@ -1,36 +1,36 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next';
 import './aboutMe.css';
 import profileImg from "../../assets/profile.jpg";
 import theme_pattern from "../../assets/theme.svg";
-const AboutMe = () => {
+import AboutParticles from './AboutParticles';
+
+const AboutMe = ({ theme }) => {
+  const { t } = useTranslation();
   return (
     <div className='about' id='about'>
+      <AboutParticles theme={theme} />
       <div className='about-title'>
-        <h1>About Me</h1>
+        <h1>{t('about.title')}</h1>
         <img src={theme_pattern} alt='theme' />
       </div>
-  
+
       <div className='about-section'>
         <div className='about-left'>
           <img src={profileImg} alt='profile' className='profile1' />
         </div>
-  
+
         <div className='about-right'>
           <div className='about-para'>
             <p>
-            I am a skilled Fullstack Developer with over a decade of experience in designing and building scalable web applications. 
-            Throughout my career, I have worked with leading organizations, delivering high-quality solutions that enhance user experience
-             and drive business success. My expertise spans both frontend and backend technologies, allowing me to develop seamless and 
-             efficient applications.
+              {t('about.para1')}
             </p>
 
             <p>
-            My passion for Fullstack Development goes beyond writing code—I thrive on solving complex challenges, optimizing performance, 
-            and creating intuitive user interfaces. I am committed to continuous learning and staying up to date with the latest industry 
-            trends to deliver innovative and impactful solutions.
+              {t('about.para2')}
             </p>
           </div>
-  
+
           <div className='about-skills'>
             <div className='about-skill'>
               <p>HTML & CSS</p>
@@ -51,29 +51,29 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-  
+
       <div className='about-achievements'>
         <div className='about-achievement'>
           <h1>1+</h1>
-          <p>Years of Experience</p>
+          <p>{t('about.experience')}</p>
         </div>
         <hr />
-  
+
         <div className='about-achievement'>
           <h1>4+</h1>
-          <p>Projects Completed</p>
+          <p>{t('about.projects')}</p>
         </div>
         <hr />
-  
+
         <div className='about-achievement'>
           <h1>1+</h1>
-          <p>Happy Clients</p>
+          <p>{t('about.clients')}</p>
         </div>
         {/* <hr /> */}
       </div>
     </div>
   );
-  
+
 }
 
 export default AboutMe

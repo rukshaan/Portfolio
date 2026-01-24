@@ -5,6 +5,8 @@
     align-items: center;
     gap: 80px;
     margin: 80px 170px;
+    position: relative;
+    /* overflow: hidden;  Optional: uncomment if particles overflow section boundaries */
 }
 
 .about-title {

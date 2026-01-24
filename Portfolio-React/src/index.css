@@ -1,10 +1,39 @@
-*{
+:root {
+    --bg-color: #161513;
+    --text-color: #ffffff;
+    --sidebar-bg: #1f1e1c;
+    --accent-color: #ff00ff;
+    --nav-bg: #161513;
+    --card-bg: #1f1e1c;
+    --card-border: transparent;
+    --input-bg: #32323c;
+    --input-text: #A0A0A0;
+    --footer-bg: #161513;
+}
+
+[data-theme="light"] {
+    --bg-color: #ffffff;
+    --text-color: #161513;
+    --sidebar-bg: #f8f8f8;
+    --accent-color: #a800a8;
+    --nav-bg: #ffffff;
+    --card-bg: #f5f5f5;
+    --card-border: #e0e0e0;
+    --input-bg: #f0f0f0;
+    --input-text: #333333;
+    --footer-bg: #f8f8f8;
+}
+
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-body{
-    height:100vh;
-    background: #161513;
-    color: white;
+
+body {
+    height: 100vh;
+    background: var(--bg-color);
+    color: var(--text-color);
     font-family: 'outfit';
+    transition: background 0.3s, color 0.3s;
 }

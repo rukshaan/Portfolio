@@ -1,0 +1,104 @@
+{
+    "navbar": {
+        "home": "Home",
+        "about": "Over Mij",
+        "services": "Diensten",
+        "portfolio": "Portfolio",
+        "contact": "Contact",
+        "connect": "Verbind met mij"
+    },
+    "hero": {
+        "title_span": "Jeyarajah Rukshan ,",
+        "title_rest": "Data Engineer gevestigd in Sri Lanka",
+        "description": "I am a Data Engineer from,Jaffna Sri Lanka .I am searching for a Job",
+        "connect": "Verbind met mij",
+        "resume": "Mijn CV"
+    },
+    "about": {
+        "title": "Over Mij",
+        "para1": "I am a skilled Fullstack Developer... (NL)",
+        "para2": "My passion for Fullstack Development... (NL)",
+        "experience": "Jaren Ervaring",
+        "projects": "Projecten Voltooid",
+        "clients": "Tevreden Klanten"
+    },
+    "services": {
+        "title": "Diensten",
+        "readmore": "Lees Meer",
+        "items": [
+            {
+                "name": "Web design",
+                "desc": "Web design description... (NL)"
+            },
+            {
+                "name": "Graphics design",
+                "desc": "Graphics design description... (NL)"
+            },
+            {
+                "name": "Social media",
+                "desc": "Social media description... (NL)"
+            },
+            {
+                "name": "App design",
+                "desc": "App design description... (NL)"
+            },
+            {
+                "name": "Digital marketing",
+                "desc": "Digital marketing description... (NL)"
+            },
+            {
+                "name": "Content writing",
+                "desc": "Content writing description... (NL)"
+            }
+        ]
+    },
+    "mywork": {
+        "title": "Mijn Werk",
+        "showmore": "Toon Meer",
+        "items": [
+            {
+                "name": "Web design"
+            },
+            {
+                "name": "Web design"
+            },
+            {
+                "name": "Web design"
+            },
+            {
+                "name": "Web design"
+            },
+            {
+                "name": "Web design"
+            },
+            {
+                "name": "Web design"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Neem Contact Op",
+        "lets_talk": "Laten we praten",
+        "desc": "I am currently available... (NL)",
+        "labels": {
+            "name": "Uw Naam :",
+            "email": "Uw E-mail :",
+            "message": "Uw Bericht :"
+        },
+        "placeholders": {
+            "name": "Voer hier uw naam in",
+            "email": "Mail@gmail.com",
+            "message": "Voer hier uw bericht in"
+        },
+        "submit": "Dien Nu In"
+    },
+    "footer": {
+        "desc": "I am a fullstack developer from... (NL)",
+        "email_placeholder": "Voer Uw E-mail In",
+        "subscribe": "Abonneren",
+        "copyright": "@2024 Jeyarajah Rukshan. Alle rechten voorbehouden.",
+        "terms": "Servicevoorwaarden",
+        "privacy": "Privacybeleid",
+        "connect": "Verbind met mij"
+    }
+}
