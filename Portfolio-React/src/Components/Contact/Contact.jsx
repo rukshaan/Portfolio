@@ -58,6 +58,7 @@ export const Contact = () => {
               <img src={location_icon} alt='theme' />
               <p>Mathagal East Mathagal Jaffna, SriLanka</p>
             </div>
+            
           </div>
         </div>
 
