@@ -8,9 +8,9 @@
         "connect": "Connect With Me"
     },
     "hero": {
-        "title_span": "Jeyarajah Rukshan ,",
+        "title_span": "Jeyarajah Rukshan,",
         "title_rest": "Data Engineer Based In Sri Lanka",
-        "description": "I am a Data Engineer from,Jaffna Sri Lanka .I am searching for a Job",
+        "description": "I am a Data Engineer from, Jaffna Sri Lanka. I am searching for a Job.",
         "connect": "Connect Me",
         "resume": "MyResume"
     },
@@ -78,8 +78,8 @@
     },
     "contact": {
         "title": "Get In Touch",
-        "lets_talk": "Lets Talk",
-        "desc": "I am currently available to take on new project, So feel free a message about anything that you want me to work on .You can Contact anytime.",
+        "lets_talk": "Lets' Talk",
+        "desc": "I am currently available to take on new project, So feel free a message about anything that you want me to work on. You can Contact anytime.",
         "labels": {
             "name": "Your Name :",
             "email": "Your Email :",
@@ -93,10 +93,10 @@
         "submit": "Submit Now"
     },
     "footer": {
-        "desc": "I am a fullstack developer from ,SriLanka with 1+ years of experiance in fullstack development.",
+        "desc": "I am a fullstack developer from, SriLanka with 1+ years of experiance in fullstack development.",
         "email_placeholder": "Enter Your Email",
         "subscribe": "Subscribe",
-        "copyright": "@2024 Jeyarajah Rukshan. All rights reserved.",
+        "copyright": "@2026 Jeyarajah Rukshan. All rights reserved.",
         "terms": "Term Of Services",
         "privacy": "Privacy Policy",
         "connect": "Connect with Me"

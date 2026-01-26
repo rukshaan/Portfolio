@@ -56,7 +56,7 @@ export const Contact = () => {
             </div>
             <div className='contact-detail'>
               <img src={location_icon} alt='theme' />
-              <p>Mathagal East Mathagal Jaffna, SriLanka</p>
+              <p>Mathagal East Mathagal, Jaffna, SriLanka</p>
             </div>
             
           </div>
