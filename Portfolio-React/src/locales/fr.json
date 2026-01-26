@@ -1,104 +1,98 @@
 {
-    "navbar": {
-        "home": "Accueil",
-        "about": "À Propos",
-        "services": "Services",
-        "portfolio": "Portfolio",
-        "contact": "Contact",
-        "connect": "Connectez-vous"
+  "navbar": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "connect": "Me Contacter"
+  },
+
+  "hero": {
+    "title_span": "Jeyarajah Rukshan,",
+    "title_rest": "Ingénieur Data Basé au Sri Lanka",
+    "description": "Je suis un Ingénieur Data originaire de Jaffna, Sri Lanka. Je suis actuellement à la recherche d’opportunités professionnelles.",
+    "connect": "Me Contacter",
+    "resume": "Mon CV"
+  },
+
+  "about": {
+    "title": "À Propos de Moi",
+    "para1": "Je suis un Ingénieur Data qualifié avec une solide expérience dans la conception et la construction de pipelines de données évolutifs. Mon expertise consiste à transformer des données brutes en informations exploitables, à garantir la fiabilité des données et à optimiser l’architecture pour de meilleures performances.",
+    "para2": "Ma passion pour l’ingénierie des données me pousse à relever des défis complexes, allant de la création de processus ETL efficaces à la gestion d’entrepôts de données à grande échelle. Je m’engage à utiliser des technologies modernes pour fournir des solutions de données robustes soutenant la prise de décision métier.",
+    "experience": "Années d’Expérience",
+    "projects": "Projets Réalisés",
+    "clients": "Clients Satisfaits"
+  },
+
+  "services": {
+    "title": "Services",
+    "readmore": "En Savoir Plus",
+    "items": [
+      {
+        "name": "Construction de Pipelines de Données",
+        "desc": "Conception et développement de pipelines de données robustes et évolutifs pour ingérer, traiter et déplacer efficacement les données entre différents systèmes."
+      },
+      {
+        "name": "Processus ETL / ELT",
+        "desc": "Développement et gestion de flux de travail ETL et ELT afin de garantir la disponibilité de données de haute qualité pour l’analyse."
+      },
+      {
+        "name": "Entrepôts de Données",
+        "desc": "Architecture et optimisation d’entrepôts de données pour stocker de grands volumes de données structurées et non structurées à des fins de reporting et d’analyse."
+      },
+      {
+        "name": "Optimisation des Bases de Données",
+        "desc": "Amélioration des performances des bases de données, conception de schémas et maintenance afin d’assurer un accès rapide et fiable aux données."
+      },
+      {
+        "name": "Solutions de Données Cloud",
+        "desc": "Mise en œuvre et gestion d’infrastructures de données sur des plateformes cloud telles qu’AWS, Azure ou GCP, garantissant évolutivité et sécurité."
+      },
+      {
+        "name": "Développement d’API de Données",
+        "desc": "Création d’API sécurisées et performantes pour exposer les données aux applications et permettre une intégration fluide."
+      }
+    ]
+  },
+
+  "mywork": {
+    "title": "Mes Réalisations",
+    "showmore": "Afficher Plus",
+    "items": [
+      { "name": "Conception Web" },
+      { "name": "Conception Web" },
+      { "name": "Conception Web" },
+      { "name": "Conception Web" },
+      { "name": "Conception Web" },
+      { "name": "Conception Web" }
+    ]
+  },
+
+  "contact": {
+    "title": "Entrer en Contact",
+    "lets_talk": "Discutons",
+    "desc": "Je suis actuellement disponible pour de nouveaux projets. N’hésitez pas à m’envoyer un message concernant tout travail sur lequel vous souhaitez collaborer. Vous pouvez me contacter à tout moment.",
+    "labels": {
+      "name": "Votre Nom :",
+      "email": "Votre Email :",
+      "message": "Votre Message :"
     },
-    "hero": {
-        "title_span": "Jeyarajah Rukshan ,",
-        "title_rest": "Ingénieur de Données basé au Sri Lanka",
-        "description": "I am a Data Engineer from,Jaffna Sri Lanka .I am searching for a Job",
-        "connect": "Connectez-moi",
-        "resume": "Mon CV"
+    "placeholders": {
+      "name": "Entrez votre nom",
+      "email": "email@gmail.com",
+      "message": "Entrez votre message ici"
     },
-    "about": {
-        "title": "À Propos",
-        "para1": "I am a skilled Fullstack Developer... (FR)",
-        "para2": "My passion for Fullstack Development... (FR)",
-        "experience": "Années d'Expérience",
-        "projects": "Projets Terminés",
-        "clients": "Clients Heureux"
-    },
-    "services": {
-        "title": "Services",
-        "readmore": "Lire Plus",
-        "items": [
-            {
-                "name": "Web design",
-                "desc": "Web design description... (FR)"
-            },
-            {
-                "name": "Graphics design",
-                "desc": "Graphics design description... (FR)"
-            },
-            {
-                "name": "Social media",
-                "desc": "Social media description... (FR)"
-            },
-            {
-                "name": "App design",
-                "desc": "App design description... (FR)"
-            },
-            {
-                "name": "Digital marketing",
-                "desc": "Digital marketing description... (FR)"
-            },
-            {
-                "name": "Content writing",
-                "desc": "Content writing description... (FR)"
-            }
-        ]
-    },
-    "mywork": {
-        "title": "Mon Travail",
-        "showmore": "Montrer Plus",
-        "items": [
-            {
-                "name": "Web design"
-            },
-            {
-                "name": "Web design"
-            },
-            {
-                "name": "Web design"
-            },
-            {
-                "name": "Web design"
-            },
-            {
-                "name": "Web design"
-            },
-            {
-                "name": "Web design"
-            }
-        ]
-    },
-    "contact": {
-        "title": "Contactez-nous",
-        "lets_talk": "Parlons",
-        "desc": "I am currently available... (FR)",
-        "labels": {
-            "name": "Votre Nom :",
-            "email": "Votre Email :",
-            "message": "Votre Message :"
-        },
-        "placeholders": {
-            "name": "Entrez votre nom ici",
-            "email": "Mail@gmail.com",
-            "message": "Entrez vos messages ici"
-        },
-        "submit": "Soumettre Maintenant"
-    },
-    "footer": {
-        "desc": "I am a fullstack developer from... (FR)",
-        "email_placeholder": "Entrez Votre Email",
-        "subscribe": "S'abonner",
-        "copyright": "@2024 Jeyarajah Rukshan. Tous droits réservés.",
-        "terms": "Conditions d'utilisation",
-        "privacy": "Politique de confidentialité",
-        "connect": "Connectez-vous avec moi"
-    }
+    "submit": "Envoyer"
+  },
+
+  "footer": {
+    "desc": "Je suis un développeur Full Stack basé au Sri Lanka avec plus d’un an d’expérience en développement full stack.",
+    "email_placeholder": "Entrez votre email",
+    "subscribe": "S’abonner",
+    "copyright": "© 2024 Jeyarajah Rukshan. Tous droits réservés.",
+    "terms": "Conditions de Service",
+    "privacy": "Politique de Confidentialité",
+    "connect": "Me Contacter"
+  }
 }

@@ -1,104 +1,98 @@
 {
-    "navbar": {
-        "home": "Inicio",
-        "about": "Sobre Mí",
-        "services": "Servicios",
-        "portfolio": "Portafolio",
-        "contact": "Contacto",
-        "connect": "Conéctate Conmigo"
+  "navbar": {
+    "home": "Inicio",
+    "about": "Sobre Mí",
+    "services": "Servicios",
+    "portfolio": "Portafolio",
+    "contact": "Contacto",
+    "connect": "Conéctate Conmigo"
+  },
+
+  "hero": {
+    "title_span": "Jeyarajah Rukshan,",
+    "title_rest": "Ingeniero de Datos con Base en Sri Lanka",
+    "description": "Soy un Ingeniero de Datos de Jaffna, Sri Lanka. Actualmente estoy buscando oportunidades laborales.",
+    "connect": "Conectar",
+    "resume": "Mi Currículum"
+  },
+
+  "about": {
+    "title": "Sobre Mí",
+    "para1": "Soy un Ingeniero de Datos capacitado con una sólida experiencia en el diseño y construcción de pipelines de datos escalables. Mi especialidad es transformar datos sin procesar en información útil, garantizando la confiabilidad de los datos y optimizando la arquitectura para un mejor rendimiento.",
+    "para2": "Mi pasión por la Ingeniería de Datos me impulsa a resolver desafíos complejos, desde la creación de procesos ETL eficientes hasta la gestión de grandes almacenes de datos. Estoy comprometido a utilizar tecnologías modernas para ofrecer soluciones de datos sólidas que respalden la toma de decisiones empresariales.",
+    "experience": "Años de Experiencia",
+    "projects": "Proyectos Completados",
+    "clients": "Clientes Satisfechos"
+  },
+
+  "services": {
+    "title": "Servicios",
+    "readmore": "Leer Más",
+    "items": [
+      {
+        "name": "Construcción de Pipelines de Datos",
+        "desc": "Diseño y desarrollo de pipelines de datos robustos y escalables para ingerir, procesar y mover datos de manera eficiente entre distintos sistemas."
+      },
+      {
+        "name": "Procesos ETL / ELT",
+        "desc": "Desarrollo y gestión de flujos de trabajo ETL y ELT para garantizar la disponibilidad de datos de alta calidad para el análisis."
+      },
+      {
+        "name": "Almacenamiento de Datos",
+        "desc": "Arquitectura y optimización de almacenes de datos para guardar grandes volúmenes de datos estructurados y no estructurados para informes y análisis."
+      },
+      {
+        "name": "Optimización de Bases de Datos",
+        "desc": "Mejora del rendimiento de bases de datos, diseño de esquemas y mantenimiento para asegurar un acceso rápido y confiable a los datos."
+      },
+      {
+        "name": "Soluciones de Datos en la Nube",
+        "desc": "Implementación y gestión de infraestructuras de datos en plataformas en la nube como AWS, Azure o GCP, garantizando escalabilidad y seguridad."
+      },
+      {
+        "name": "Desarrollo de APIs de Datos",
+        "desc": "Creación de APIs seguras y eficientes para exponer datos a aplicaciones y permitir una integración fluida."
+      }
+    ]
+  },
+
+  "mywork": {
+    "title": "Mi Trabajo",
+    "showmore": "Mostrar Más",
+    "items": [
+      { "name": "Diseño Web" },
+      { "name": "Diseño Web" },
+      { "name": "Diseño Web" },
+      { "name": "Diseño Web" },
+      { "name": "Diseño Web" },
+      { "name": "Diseño Web" }
+    ]
+  },
+
+  "contact": {
+    "title": "Ponte en Contacto",
+    "lets_talk": "Hablemos",
+    "desc": "Actualmente estoy disponible para nuevos proyectos. No dudes en enviarme un mensaje sobre cualquier trabajo en el que quieras que colabore. Puedes contactarme en cualquier momento.",
+    "labels": {
+      "name": "Tu Nombre:",
+      "email": "Tu Correo Electrónico:",
+      "message": "Tu Mensaje:"
     },
-    "hero": {
-        "title_span": "Jeyarajah Rukshan ,",
-        "title_rest": "Ingeniero de Datos con sede en Sri Lanka",
-        "description": "Soy Ingeniero de Datos de Jaffna, Sri Lanka. Busco empleo.",
-        "connect": "Conéctame",
-        "resume": "Mi Currículum"
+    "placeholders": {
+      "name": "Introduce tu nombre",
+      "email": "correo@gmail.com",
+      "message": "Escribe tu mensaje aquí"
     },
-    "about": {
-        "title": "Sobre Mí",
-        "para1": "I am a skilled Fullstack Developer with over a decade of experience in designing and building scalable web applications. Throughout my career, I have worked with leading organizations, delivering high-quality solutions that enhance user experience and drive business success. My expertise spans both frontend and backend technologies, allowing me to develop seamless and efficient applications. (ES)",
-        "para2": "My passion for Fullstack Development goes beyond writing code—I thrive on solving complex challenges, optimizing performance, and creating intuitive user interfaces. I am committed to continuous learning and staying up to date with the latest industry trends to deliver innovative and impactful solutions. (ES)",
-        "experience": "Años de Experiencia",
-        "projects": "Proyectos Completados",
-        "clients": "Clientes Felices"
-    },
-    "services": {
-        "title": "Servicios",
-        "readmore": "Leer Más",
-        "items": [
-            {
-                "name": "Diseño Web",
-                "desc": "Web design is the process... (ES)"
-            },
-            {
-                "name": "Diseño Gráfico",
-                "desc": "Graphic design involves... (ES)"
-            },
-            {
-                "name": "Redes Sociales",
-                "desc": "Social media management... (ES)"
-            },
-            {
-                "name": "Diseño de Apps",
-                "desc": "App design focuses... (ES)"
-            },
-            {
-                "name": "Marketing Digital",
-                "desc": "Digital marketing encompasses... (ES)"
-            },
-            {
-                "name": "Redacción de Contenidos",
-                "desc": "Content writing is... (ES)"
-            }
-        ]
-    },
-    "mywork": {
-        "title": "Mi Portafolio",
-        "showmore": "Mostrar Más",
-        "items": [
-            {
-                "name": "Web design"
-            },
-            {
-                "name": "Web design"
-            },
-            {
-                "name": "Web design"
-            },
-            {
-                "name": "Web design"
-            },
-            {
-                "name": "Web design"
-            },
-            {
-                "name": "Web design"
-            }
-        ]
-    },
-    "contact": {
-        "title": "Ponerse en Contacto",
-        "lets_talk": "Hablemos",
-        "desc": "I am currently available... (ES)",
-        "labels": {
-            "name": "Tu Nombre :",
-            "email": "Tu Correo :",
-            "message": "Tu Mensaje :"
-        },
-        "placeholders": {
-            "name": "Introduce tu nombre aquí",
-            "email": "Correo@gmail.com",
-            "message": "Introduce tu mensaje aquí"
-        },
-        "submit": "Enviar Ahora"
-    },
-    "footer": {
-        "desc": "I am a fullstack developer from... (ES)",
-        "email_placeholder": "Introduce Tu Correo",
-        "subscribe": "Suscribirse",
-        "copyright": "@2024 Jeyarajah Rukshan. Todos los derechos reservados.",
-        "terms": "Términos de Servicio",
-        "privacy": "Política de Privacidad",
-        "connect": "Conéctate conmigo"
-    }
+    "submit": "Enviar"
+  },
+
+  "footer": {
+    "desc": "Soy un Desarrollador Full Stack de Sri Lanka con más de 1 año de experiencia en desarrollo full stack.",
+    "email_placeholder": "Introduce tu correo electrónico",
+    "subscribe": "Suscribirse",
+    "copyright": "© 2024 Jeyarajah Rukshan. Todos los derechos reservados.",
+    "terms": "Términos del Servicio",
+    "privacy": "Política de Privacidad",
+    "connect": "Conéctate Conmigo"
+  }
 }

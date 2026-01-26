@@ -1,104 +1,98 @@
 {
-    "navbar": {
-        "home": "Home",
-        "about": "Over Mij",
-        "services": "Diensten",
-        "portfolio": "Portfolio",
-        "contact": "Contact",
-        "connect": "Verbind met mij"
+  "navbar": {
+    "home": "Home",
+    "about": "Over Mij",
+    "services": "Diensten",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "connect": "Neem Contact Met Mij Op"
+  },
+
+  "hero": {
+    "title_span": "Jeyarajah Rukshan,",
+    "title_rest": "Data Engineer Gevestigd in Sri Lanka",
+    "description": "Ik ben een Data Engineer uit Jaffna, Sri Lanka. Momenteel ben ik op zoek naar nieuwe carrièremogelijkheden.",
+    "connect": "Neem Contact Op",
+    "resume": "Mijn CV"
+  },
+
+  "about": {
+    "title": "Over Mij",
+    "para1": "Ik ben een ervaren Data Engineer met een sterke achtergrond in het ontwerpen en bouwen van schaalbare datapipelines. Mijn expertise ligt in het omzetten van ruwe data naar bruikbare inzichten, het waarborgen van databetrouwbaarheid en het optimaliseren van data-architecturen voor betere prestaties.",
+    "para2": "Mijn passie voor Data Engineering drijft mij om complexe data-uitdagingen op te lossen, van het opzetten van efficiënte ETL-processen tot het beheren van grootschalige datawarehouses. Ik zet moderne technologieën in om robuuste data-oplossingen te leveren die zakelijke besluitvorming ondersteunen.",
+    "experience": "Jaren Ervaring",
+    "projects": "Voltooide Projecten",
+    "clients": "Tevreden Klanten"
+  },
+
+  "services": {
+    "title": "Diensten",
+    "readmore": "Lees Meer",
+    "items": [
+      {
+        "name": "Ontwikkeling van Datapipelines",
+        "desc": "Ontwerpen en bouwen van robuuste en schaalbare datapipelines om data efficiënt te verzamelen, verwerken en verplaatsen tussen verschillende systemen."
+      },
+      {
+        "name": "ETL / ELT-processen",
+        "desc": "Ontwikkeling en beheer van ETL- en ELT-workflows om de beschikbaarheid van hoogwaardige data voor analyse te garanderen."
+      },
+      {
+        "name": "Datawarehousing",
+        "desc": "Architectuur en optimalisatie van datawarehouses voor het opslaan van grote hoeveelheden gestructureerde en ongestructureerde data voor rapportage en analyse."
+      },
+      {
+        "name": "Database-optimalisatie",
+        "desc": "Verbeteren van databaseprestaties, ontwerpen van schema’s en onderhouden van databases voor snelle en betrouwbare datatoegang."
+      },
+      {
+        "name": "Cloud Data-oplossingen",
+        "desc": "Implementatie en beheer van datainfrastructuur op cloudplatforms zoals AWS, Azure of GCP, met focus op schaalbaarheid en beveiliging."
+      },
+      {
+        "name": "Ontwikkeling van Data-API’s",
+        "desc": "Bouwen van veilige en efficiënte API’s om data beschikbaar te stellen aan applicaties en soepele integratie mogelijk te maken."
+      }
+    ]
+  },
+
+  "mywork": {
+    "title": "Mijn Werk",
+    "showmore": "Meer Tonen",
+    "items": [
+      { "name": "Webdesign" },
+      { "name": "Webdesign" },
+      { "name": "Webdesign" },
+      { "name": "Webdesign" },
+      { "name": "Webdesign" },
+      { "name": "Webdesign" }
+    ]
+  },
+
+  "contact": {
+    "title": "Neem Contact Op",
+    "lets_talk": "Laten We Praten",
+    "desc": "Ik ben momenteel beschikbaar voor nieuwe projecten. Stuur gerust een bericht over alles waar je mij voor wilt inschakelen. Je kunt op elk moment contact met mij opnemen.",
+    "labels": {
+      "name": "Je Naam :",
+      "email": "Je E-mailadres :",
+      "message": "Je Bericht :"
     },
-    "hero": {
-        "title_span": "Jeyarajah Rukshan ,",
-        "title_rest": "Data Engineer gevestigd in Sri Lanka",
-        "description": "I am a Data Engineer from,Jaffna Sri Lanka .I am searching for a Job",
-        "connect": "Verbind met mij",
-        "resume": "Mijn CV"
+    "placeholders": {
+      "name": "Voer je naam in",
+      "email": "email@gmail.com",
+      "message": "Voer hier je bericht in"
     },
-    "about": {
-        "title": "Over Mij",
-        "para1": "I am a skilled Fullstack Developer... (NL)",
-        "para2": "My passion for Fullstack Development... (NL)",
-        "experience": "Jaren Ervaring",
-        "projects": "Projecten Voltooid",
-        "clients": "Tevreden Klanten"
-    },
-    "services": {
-        "title": "Diensten",
-        "readmore": "Lees Meer",
-        "items": [
-            {
-                "name": "Web design",
-                "desc": "Web design description... (NL)"
-            },
-            {
-                "name": "Graphics design",
-                "desc": "Graphics design description... (NL)"
-            },
-            {
-                "name": "Social media",
-                "desc": "Social media description... (NL)"
-            },
-            {
-                "name": "App design",
-                "desc": "App design description... (NL)"
-            },
-            {
-                "name": "Digital marketing",
-                "desc": "Digital marketing description... (NL)"
-            },
-            {
-                "name": "Content writing",
-                "desc": "Content writing description... (NL)"
-            }
-        ]
-    },
-    "mywork": {
-        "title": "Mijn Werk",
-        "showmore": "Toon Meer",
-        "items": [
-            {
-                "name": "Web design"
-            },
-            {
-                "name": "Web design"
-            },
-            {
-                "name": "Web design"
-            },
-            {
-                "name": "Web design"
-            },
-            {
-                "name": "Web design"
-            },
-            {
-                "name": "Web design"
-            }
-        ]
-    },
-    "contact": {
-        "title": "Neem Contact Op",
-        "lets_talk": "Laten we praten",
-        "desc": "I am currently available... (NL)",
-        "labels": {
-            "name": "Uw Naam :",
-            "email": "Uw E-mail :",
-            "message": "Uw Bericht :"
-        },
-        "placeholders": {
-            "name": "Voer hier uw naam in",
-            "email": "Mail@gmail.com",
-            "message": "Voer hier uw bericht in"
-        },
-        "submit": "Dien Nu In"
-    },
-    "footer": {
-        "desc": "I am a fullstack developer from... (NL)",
-        "email_placeholder": "Voer Uw E-mail In",
-        "subscribe": "Abonneren",
-        "copyright": "@2024 Jeyarajah Rukshan. Alle rechten voorbehouden.",
-        "terms": "Servicevoorwaarden",
-        "privacy": "Privacybeleid",
-        "connect": "Verbind met mij"
-    }
+    "submit": "Verzenden"
+  },
+
+  "footer": {
+    "desc": "Ik ben een Full Stack Developer uit Sri Lanka met meer dan 1 jaar ervaring in full stack development.",
+    "email_placeholder": "Voer je e-mailadres in",
+    "subscribe": "Abonneren",
+    "copyright": "© 2024 Jeyarajah Rukshan. Alle rechten voorbehouden.",
+    "terms": "Servicevoorwaarden",
+    "privacy": "Privacybeleid",
+    "connect": "Neem Contact Met Mij Op"
+  }
 }

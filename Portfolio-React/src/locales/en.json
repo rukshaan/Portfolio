@@ -27,28 +27,28 @@
         "readmore": "Read More",
         "items": [
             {
-                "name": "Web design",
-                "desc": "Web design is the process of creating the visual layout and user experience of a website, focusing on aesthetics and usability to enhance user engagement."
+                "name": "Data Pipeline Construction",
+                "desc": "Designing and building robust, scalable data pipelines to ingest, process, and move data efficiently across diverse systems."
             },
             {
-                "name": "Graphics design",
-                "desc": "Graphic design involves the art of combining text and images to communicate ideas visually. It encompasses branding, advertisements, and various media for effective visual storytelling."
+                "name": "ETL/ELT Processes",
+                "desc": "Developing and managing Extract, Transform, Load (ETL) and ELT workflows to ensure high-quality data availability for analysis."
             },
             {
-                "name": "Social media",
-                "desc": "Social media management includes creating, curating, and analyzing content shared on social platforms to build a community, engage audiences, and enhance brand visibility."
+                "name": "Data Warehousing",
+                "desc": "Architecting and optimizing data warehouses to store large volumes of structured and unstructured data for reporting and analytics."
             },
             {
-                "name": "App design",
-                "desc": "App design focuses on creating user-friendly interfaces and experiences for mobile applications, ensuring seamless navigation and interaction to enhance user satisfaction."
+                "name": "Database Optimization",
+                "desc": "Tuning database performance, designing schemas, and managing database health to ensure fast and reliable data access."
             },
             {
-                "name": "Digital marketing",
-                "desc": "Digital marketing encompasses all marketing efforts that use the internet or electronic devices, including SEO, content marketing, and social media, to connect with target audiences."
+                "name": "Cloud Data Solutions",
+                "desc": "Implementing and managing data infrastructure on cloud platforms like AWS, Azure, or GCP to ensure scalability and security."
             },
             {
-                "name": "Content writing",
-                "desc": "Content writing is the creation of written material for online platforms, aimed at engaging readers and driving traffic through informative, persuasive, and entertaining content."
+                "name": "Data API Development",
+                "desc": "Building secure and efficient APIs to expose data to applications, enabling seamless integration and data consumption."
             }
         ]
     },
