@@ -8,11 +8,11 @@ import { MyWork } from './Components/MyWork/MyWork';
 import { Contact } from './Components/Contact/Contact';
 import { Footer } from './Components/Footer/Footer';
 import SocialSidebar from './Components/SocialSidebar/SocialSidebar';
-
+import Projects from "./Components/Projects/Projects";
 
 function App() {
   const [theme, setTheme] = useState('dark');
-
+  const [showProjects, setShowProjects] = useState(false);
   const toggleTheme = () => {
     setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
   };
@@ -27,7 +27,14 @@ function App() {
       <Hero theme={theme} />
       <AboutMe theme={theme} />
       <Services />
-      <MyWork />
+
+      {/* 👇 TOGGLE BETWEEN MyWork AND Projects */}
+      {!showProjects ? (
+        <MyWork setShowProjects={setShowProjects} />
+      ) : (
+        <Projects />
+      )}
+      
       <Contact />
       <Footer />
       <SocialSidebar theme={theme} toggleTheme={toggleTheme} />

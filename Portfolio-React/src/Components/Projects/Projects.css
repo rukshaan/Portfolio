@@ -1,0 +1,159 @@
+/* SECTION STYLING */
+.projects {
+  position: relative;
+  padding: 5rem 2rem;
+  background: #0a0a0a;
+  color: #fff;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.projects-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 4rem;
+  color: #ff6584; /* updated from blue to pink */
+  text-shadow: 0 0 20px #ff6584; /* glow effect */
+  z-index: 10;
+  position: relative;
+}
+
+/* GRID LAYOUT */
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4rem;
+  z-index: 10;
+  position: relative;
+  padding: 0 2rem;
+}
+
+/* PROJECT CARD */
+.project-card {
+  display: flex;
+  flex-direction: column; /* vertical stack */
+  align-items: center;
+  gap: 1.5rem;
+  background: rgba(28, 28, 28, 0.95);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.7);
+  transition: transform 0.3s, box-shadow 0.3s;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.9);
+}
+
+/* SUBHEADER / PROJECT NAME */
+.project-name {
+  font-size: 2rem;
+  color: #ff6584; /* pink like Services h1 */
+  margin-bottom: 1rem;
+  text-shadow: 0 0 10px #ff6584;
+}
+
+/* IMAGE */
+.card-image {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+}
+
+.card-image img {
+  width: 100%;
+  border-radius: 15px;
+  transition: transform 0.5s;
+}
+
+.project-card:hover .card-image img {
+  transform: scale(1.05);
+}
+
+/* PROJECT NUMBER BADGE */
+.project-number {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: #ffba00; /* yellow/orange like Services */
+  color: #000;
+  padding: 8px 14px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* CARD CONTENT */
+.card-content {
+  width: 100%;
+}
+
+/* TECH STACK BADGES */
+.tech-stack {
+  margin-bottom: 1rem;
+}
+
+.tech-badge {
+  display: inline-block;
+  background: #00d8ff; /* cyan like Services h3 */
+  color: #000;
+  padding: 5px 12px;
+  margin: 5px 5px 5px 0;
+  border-radius: 5px;
+  font-size: 0.85rem;
+}
+
+/* DESCRIPTION */
+.project-description {
+  color: #ddd;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+/* LINKS */
+.project-links a {
+  display: inline-block;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #00d8ff; /* matches tech badges */
+  color: #000;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.project-links a:hover {
+  background: #ff5f7e; /* pink hover like Services hover effect */
+  color: #fff;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 1024px) {
+  .project-card {
+    text-align: center;
+  }
+
+  .card-image img {
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+}
+
+/* LARGER SCREENS GRID */
+@media (min-width: 1200px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1600px) {
+  .projects-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
