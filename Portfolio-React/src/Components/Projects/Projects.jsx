@@ -1,6 +1,6 @@
 import React from "react";
 import projects_data from "../../assets/projects_data";
-import "./projects.css";
+import "./Projects.css";
 import ThreeBackground from "./ThreeBackground";
 
 const Projects = () => {
