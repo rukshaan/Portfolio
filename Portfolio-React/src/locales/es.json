@@ -1,98 +1,104 @@
 {
-  "navbar": {
-    "home": "Inicio",
-    "about": "Sobre Mí",
-    "services": "Servicios",
-    "portfolio": "Portafolio",
-    "contact": "Contacto",
-    "connect": "Conéctate Conmigo"
-  },
-
-  "hero": {
-    "title_span": "Jeyarajah Rukshan,",
-    "title_rest": "Ingeniero de Datos con Base en Sri Lanka",
-    "description": "Soy un Ingeniero de Datos de Jaffna, Sri Lanka. Actualmente estoy buscando oportunidades laborales.",
-    "connect": "Conectar",
-    "resume": "Mi Currículum"
-  },
-
-  "about": {
-    "title": "Sobre Mí",
-    "para1": "Soy un Ingeniero de Datos capacitado con una sólida experiencia en el diseño y construcción de pipelines de datos escalables. Mi especialidad es transformar datos sin procesar en información útil, garantizando la confiabilidad de los datos y optimizando la arquitectura para un mejor rendimiento.",
-    "para2": "Mi pasión por la Ingeniería de Datos me impulsa a resolver desafíos complejos, desde la creación de procesos ETL eficientes hasta la gestión de grandes almacenes de datos. Estoy comprometido a utilizar tecnologías modernas para ofrecer soluciones de datos sólidas que respalden la toma de decisiones empresariales.",
-    "experience": "Años de Experiencia",
-    "projects": "Proyectos Completados",
-    "clients": "Clientes Satisfechos"
-  },
-
-  "services": {
-    "title": "Servicios",
-    "readmore": "Leer Más",
-    "items": [
-      {
-        "name": "Construcción de Pipelines de Datos",
-        "desc": "Diseño y desarrollo de pipelines de datos robustos y escalables para ingerir, procesar y mover datos de manera eficiente entre distintos sistemas."
-      },
-      {
-        "name": "Procesos ETL / ELT",
-        "desc": "Desarrollo y gestión de flujos de trabajo ETL y ELT para garantizar la disponibilidad de datos de alta calidad para el análisis."
-      },
-      {
-        "name": "Almacenamiento de Datos",
-        "desc": "Arquitectura y optimización de almacenes de datos para guardar grandes volúmenes de datos estructurados y no estructurados para informes y análisis."
-      },
-      {
-        "name": "Optimización de Bases de Datos",
-        "desc": "Mejora del rendimiento de bases de datos, diseño de esquemas y mantenimiento para asegurar un acceso rápido y confiable a los datos."
-      },
-      {
-        "name": "Soluciones de Datos en la Nube",
-        "desc": "Implementación y gestión de infraestructuras de datos en plataformas en la nube como AWS, Azure o GCP, garantizando escalabilidad y seguridad."
-      },
-      {
-        "name": "Desarrollo de APIs de Datos",
-        "desc": "Creación de APIs seguras y eficientes para exponer datos a aplicaciones y permitir una integración fluida."
-      }
-    ]
-  },
-
-  "mywork": {
-    "title": "Mi Trabajo",
-    "showmore": "Mostrar Más",
-    "items": [
-      { "name": "Diseño Web" },
-      { "name": "Diseño Web" },
-      { "name": "Diseño Web" },
-      { "name": "Diseño Web" },
-      { "name": "Diseño Web" },
-      { "name": "Diseño Web" }
-    ]
-  },
-
-  "contact": {
-    "title": "Ponte en Contacto",
-    "lets_talk": "Hablemos",
-    "desc": "Actualmente estoy disponible para nuevos proyectos. No dudes en enviarme un mensaje sobre cualquier trabajo en el que quieras que colabore. Puedes contactarme en cualquier momento.",
-    "labels": {
-      "name": "Tu Nombre:",
-      "email": "Tu Correo Electrónico:",
-      "message": "Tu Mensaje:"
+    "navbar": {
+        "home": "Inicio",
+        "about": "Sobre mí",
+        "services": "Servicios",
+        "portfolio": "Portafolio",
+        "contact": "Contacto",
+        "connect": "Conéctate conmigo"
     },
-    "placeholders": {
-      "name": "Introduce tu nombre",
-      "email": "correo@gmail.com",
-      "message": "Escribe tu mensaje aquí"
+    "hero": {
+        "title_span": "Jeyarajah Rukshan,",
+        "title_rest": "Desarrollador Full Stack (MERN + Python)",
+        "description": "Soy un Desarrollador Full Stack de Jaffna, Sri Lanka, especializado en el stack MERN y en el desarrollo backend basado en Python. Actualmente estoy abierto a nuevas oportunidades laborales.",
+        "connect": "Conéctate conmigo",
+        "resume": "Descargar currículum"
     },
-    "submit": "Enviar"
-  },
-
-  "footer": {
-    "desc": "Soy un Desarrollador Data ENgineer de Sri Lanka con más de 1 año de experiencia en desarrollo full stack.",
-    "email_placeholder": "Introduce tu correo electrónico",
-    "subscribe": "Suscribirse",
-    "copyright": "© 2024 Jeyarajah Rukshan. Todos los derechos reservados.",
-    "terms": "Términos del Servicio",
-    "privacy": "Política de Privacidad",
-    "connect": "Conéctate Conmigo"
-  }
+    "about": {
+        "title": "Sobre mí",
+        "para1": "Soy un Desarrollador Full Stack apasionado con experiencia práctica en la creación de aplicaciones web modernas y escalables utilizando el stack MERN (MongoDB, Express.js, React.js, Node.js), junto con soluciones backend basadas en Python.",
+        "para2": "Disfruto transformar problemas complejos en soluciones limpias y eficientes. Desde el diseño de interfaces de usuario responsivas hasta el desarrollo de APIs REST seguras y la gestión de bases de datos, me enfoco en escribir código mantenible y entregar software de alta calidad.",
+        "experience": "Años de experiencia",
+        "projects": "Proyectos completados",
+        "clients": "Clientes satisfechos"
+    },
+    "services": {
+        "title": "Servicios",
+        "readmore": "Leer más",
+        "items": [
+            {
+                "name": "Desarrollo Web Full Stack",
+                "desc": "Desarrollo integral de aplicaciones web utilizando el stack MERN, con interfaces limpias, backend escalable y APIs seguras."
+            },
+            {
+                "name": "Desarrollo Frontend",
+                "desc": "Creación de interfaces de usuario responsivas e interactivas utilizando React.js, Tailwind CSS y frameworks modernos."
+            },
+            {
+                "name": "Desarrollo Backend",
+                "desc": "Desarrollo de sistemas backend robustos utilizando Node.js, Express.js y Python (Django / FastAPI) con APIs RESTful."
+            },
+            {
+                "name": "Diseño y Gestión de Bases de Datos",
+                "desc": "Diseño y administración de bases de datos utilizando MongoDB, MySQL y PostgreSQL con modelos de datos optimizados."
+            },
+            {
+                "name": "Desarrollo e Integración de APIs",
+                "desc": "Creación de APIs REST seguras e integración de servicios de terceros para una comunicación de datos fluida."
+            },
+            {
+                "name": "Despliegue y Mantenimiento",
+                "desc": "Despliegue de aplicaciones en plataformas en la nube y mantenimiento del rendimiento, la seguridad y la escalabilidad."
+            }
+        ]
+    },
+    "mywork": {
+        "title": "Mi trabajo",
+        "showmore": "Mostrar más",
+        "items": [
+            {
+                "name": "Aplicación Web MERN Stack"
+            },
+            {
+                "name": "API Backend en Python"
+            },
+            {
+                "name": "Dashboard Full Stack"
+            },
+            {
+                "name": "Sistema de Autenticación"
+            },
+            {
+                "name": "Sitio Web de Portafolio"
+            },
+            {
+                "name": "Proyecto de Gestión de Bases de Datos"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Ponte en contacto",
+        "lets_talk": "Hablemos",
+        "desc": "Actualmente estoy disponible para asumir nuevos proyectos, así que no dudes en enviarme un mensaje sobre cualquier idea o trabajo en el que te gustaría que participe. Puedes contactarme en cualquier momento.",
+        "labels": {
+            "name": "Tu nombre :",
+            "email": "Tu correo electrónico :",
+            "message": "Tu mensaje :"
+        },
+        "placeholders": {
+            "name": "Ingresa tu nombre",
+            "email": "Mail@gmail.com",
+            "message": "Ingresa tu mensaje aquí"
+        },
+        "submit": "Enviar ahora"
+    },
+    "footer": {
+        "desc": "Soy un Desarrollador Full Stack de Sri Lanka con más de 1 año de experiencia en el área de Ingeniería de Datos.",
+        "email_placeholder": "Ingresa tu correo electrónico",
+        "subscribe": "Suscribirse",
+        "copyright": "@2026 Jeyarajah Rukshan. Todos los derechos reservados.",
+        "terms": "Términos del servicio",
+        "privacy": "Política de privacidad",
+        "connect": "Conéctate conmigo"
+    }
 }
