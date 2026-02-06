@@ -16,6 +16,10 @@
     font-size: 80px;
     font-weight: 600;
     padding: 0 30px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .about-title img {
@@ -77,10 +81,21 @@
 }
 
 /* ===== Hover Effect (Desktop Only) ===== */
+/* ===== Hover Effect (Desktop Only) ===== */
 .services-format:hover {
-    border-color: purple;
+    border-color: #ff00ff;
+    /* Keep a vibrant border or use var(--accent-color) if available, but #ff00ff matches previous vibe */
     transform: scale(1.05);
-    background-image: linear-gradient(45deg, #3f0028, #582300);
+    /* Use transparent gradient to tint the existing background instead of overriding it */
+    background-image: linear-gradient(45deg, rgba(63, 0, 40, 0.4), rgba(88, 35, 0, 0.4));
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Specific light mode adjustment if needed, but transparent works broadly. 
+   Ideally, we use theme variables or a lighter tint for light mode if standard one is too dark.
+*/
+[data-theme="light"] .services-format:hover {
+    background-image: linear-gradient(45deg, rgba(255, 0, 255, 0.1), rgba(255, 165, 0, 0.1));
 }
 
 /* ===================================================== */

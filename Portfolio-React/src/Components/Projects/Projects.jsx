@@ -3,11 +3,16 @@ import projects_data from "../../assets/projects_data";
 import "./Projects.css";
 import ThreeBackground from "./ThreeBackground";
 
+import pattern from '../../assets/theme.svg';
+
 const Projects = () => {
   return (
     <div className="projects" id="projects">
       <ThreeBackground />
-      <h1 className="projects-title">My Projects</h1>
+      <div className="about-title">
+        <h1>My Projects</h1>
+        <img src={pattern} alt="theme" />
+      </div>
 
       <div className="projects-grid">
         {projects_data.map((project, index) => (

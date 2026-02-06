@@ -5,8 +5,8 @@
 
 .language-selector select {
   background: transparent;
-  color: white;
-  border: 1px solid white;
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
   padding: 5px 10px;
   border-radius: 20px;
   outline: none;
@@ -22,8 +22,8 @@
 }
 
 .language-selector select option {
-  background: #161513; 
-  color: white;
+  background: var(--bg-color);
+  color: var(--text-color);
 }
 
 @media (max-width: 768px) {
