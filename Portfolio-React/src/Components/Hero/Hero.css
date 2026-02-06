@@ -25,6 +25,17 @@
     font-size: 60px;
     font-weight: 600;
     line-height: 1.2;
+    /* Default Dark Mode: White */
+    color: #fff;
+    background: none;
+    -webkit-text-fill-color: initial;
+}
+
+[data-theme="light"] .hero h1 {
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .hero h1 span {

@@ -6,6 +6,8 @@
     gap: 80px;
     margin: 80px 170px;
     text-align: center;
+    position: relative;
+    /* Context for modal? No, modal is fixed. */
 }
 
 /* ===== Title ===== */
@@ -17,11 +19,19 @@
     font-size: 80px;
     font-weight: 600;
     padding: 0 20px;
+    /* Default Dark Mode: White */
+    color: #fff;
+    background: none;
+    -webkit-text-fill-color: initial;
+}
+
+[data-theme="light"] .mywork-title h1 {
     background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 
 .mywork-title img {
     position: absolute;
@@ -38,18 +48,32 @@
     width: 100%;
 }
 
-.mywork-container img {
+/* Wraps the image now */
+.mywork-item {
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    /* Placeholder for hover border */
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.mywork-item img {
     width: 100%;
     height: 16rem;
     object-fit: cover;
     border-radius: 10px;
-    cursor: pointer;
-    transition: transform 0.3s ease, border 0.3s ease;
+    display: block;
+    /* Remove bottom gap */
+    transition: transform 0.3s ease;
 }
 
-.mywork-container img:hover {
-    transform: scale(1.1);
-    border: 2px solid white;
+.mywork-item:hover {
+    transform: scale(1.05);
+    border-color: #ff00ff;
+    /* Similar to previous hover */
+    z-index: 2;
 }
 
 /* ===== Show More Button ===== */
@@ -75,6 +99,117 @@
     gap: 25px;
 }
 
+/* ===================================================== */
+/* ================== MODAL STYLES ===================== */
+/* ===================================================== */
+
+.work-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    /* Dark backdrop */
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    backdrop-filter: blur(5px);
+}
+
+.work-modal-content {
+    position: relative;
+    max-width: 900px;
+    max-height: 90vh;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(255, 0, 255, 0.3);
+    background: #000;
+}
+
+.modal-img {
+    width: 100%;
+    height: auto;
+    max-height: 85vh;
+    object-fit: contain;
+    display: block;
+}
+
+.close-modal {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 20;
+    text-shadow: 0 0 10px black;
+    transition: color 0.3s;
+}
+
+.close-modal:hover {
+    color: #ff00ff;
+}
+
+/* Overlay that appears on hover */
+.modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    /* Slightly transparent dark bg */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.work-modal-content:hover .modal-overlay {
+    opacity: 1;
+    /* HOVER MANNER: Revealed on hover */
+}
+
+.modal-overlay h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.modal-overlay p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 600px;
+    margin-bottom: 30px;
+    color: #ddd;
+}
+
+.modal-overlay a {
+    padding: 12px 30px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    transition: transform 0.2s;
+}
+
+.modal-overlay a:hover {
+    transform: scale(1.05);
+}
+
 /* ================= Large Screens ================= */
 @media (min-width: 1440px) {
     .mywork {
@@ -85,7 +220,7 @@
         font-size: 90px;
     }
 
-    .mywork-container img {
+    .mywork-item img {
         height: 18rem;
     }
 }
@@ -100,7 +235,7 @@
         font-size: 70px;
     }
 
-    .mywork-container img {
+    .mywork-item img {
         height: 15rem;
     }
 }
@@ -121,7 +256,7 @@
         gap: 20px;
     }
 
-    .mywork-container img {
+    .mywork-item img {
         height: 14rem;
     }
 
@@ -154,7 +289,7 @@
         gap: 20px;
     }
 
-    .mywork-container img {
+    .mywork-item img {
         height: auto;
         max-height: 250px;
         width: 100%;
@@ -167,12 +302,32 @@
         margin: 20px auto;
     }
 
-    /* Disable hover effects on touch devices */
-    .mywork-container img:hover,
-    .mywork-showmore:hover {
-        transform: none;
-        border: none;
-        gap: 20px;
+    /* Mobile Modal Adjustments */
+    .modal-overlay {
+        opacity: 1;
+        /* Always show description on mobile since no hover */
+        background: rgba(0, 0, 0, 0.7);
+        /* Slightly lighter for readability */
+        padding: 20px;
+        position: static;
+        /* Stack below image */
+        height: auto;
+    }
+
+    .work-modal-content {
+        overflow-y: auto;
+        /* Allow scrolling if long */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .modal-img {
+        max-height: 50vh;
+    }
+
+    .close-modal {
+        top: 10px;
+        right: 15px;
     }
 }
 
@@ -182,8 +337,9 @@
         font-size: 38px;
     }
 
-    .mywork-container img {
+    .mywork-item img {
         max-height: 180px;
+        border-radius: 5px;
     }
 
     .mywork-showmore {

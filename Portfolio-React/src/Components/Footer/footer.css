@@ -96,7 +96,8 @@
 }
 
 .footer-bottom-left {
-    color: #D8D8D8;
+    color: var(--text-color);
+    opacity: 0.8;
 }
 
 .footer-bottom-right {

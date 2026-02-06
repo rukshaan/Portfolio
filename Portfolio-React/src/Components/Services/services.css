@@ -16,6 +16,13 @@
     font-size: 80px;
     font-weight: 600;
     padding: 0 30px;
+    /* Default Dark Mode: White */
+    color: #fff;
+    background: none;
+    -webkit-text-fill-color: initial;
+}
+
+[data-theme="light"] .about-title h1 {
     background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
     -webkit-background-clip: text;
     background-clip: text;
@@ -54,6 +61,10 @@
 .services-format h3 {
     font-size: 26px;
     font-weight: 600;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .services-format h2 {
